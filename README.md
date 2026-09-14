@@ -1,6 +1,6 @@
 # Piste
 
-Piste is a simple glue that streamlines work on your projects in opencode, it doesn't replace how you already work, it just adds utility commands and skills to help you and your agents effectively work on tickets, review and write PRs.
+Piste is a simple glue layer that streamlines work on your projects in opencode, it doesn't replace how you already work, it just adds utility commands and skills to help you and your agents effectively work on tickets, review and write PRs.
 
 ## Install into a project
 
