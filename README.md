@@ -35,11 +35,10 @@ back on the plan if needed. When it's right, switch to Build and tell it to go.
 /review-pr [PR number or URL]
 ```
 
-Runs the checklist (Blocker/Major/Minor/Nit + a "what's good" note). Depth isn't a flag - it
-defaults to a middle ground and automatically goes deeper on the parts of the diff that are risky
-(auth, payments, migrations) or where it isn't confident, while staying fast on the rest. Any
-Blocker automatically gets checked by a second, context-free agent before you see it, so a false
-positive doesn't reach you labeled as fact.
+Runs the checklist (Blocker/Major/Minor/Nit + a "what's good" note). It automatically goes deeper
+on the parts of the diff that are risky (auth, payments, migrations) or where it isn't confident,
+while staying fast on the rest. Any Blocker automatically gets checked by a second, context-free
+agent before you see it, so a false positive doesn't reach you labeled as fact.
 
 ```
 /write-review [PR number]
