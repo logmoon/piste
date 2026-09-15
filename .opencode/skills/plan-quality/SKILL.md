@@ -13,6 +13,8 @@ phases invented to look thorough, and a real feature shouldn't be crammed into o
 
 ## Do
 
+- Be thorough, smart and sharp and work fast - plan at the depth the task earns, and don't paste
+  code or narrate thinking the reader can see themselves.
 - State the goal in plain terms before jumping to approach - "what should be true when this is
   done," not just "what to build."
 - Note anything from `AGENTS.md` or the existing code that constrains the approach (an existing

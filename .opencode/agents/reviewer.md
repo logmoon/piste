@@ -22,3 +22,6 @@ Use the `pr-review` skill for process and severity levels. Report findings group
 with file:line references. No "what's good" section - if something in the diff is genuinely good,
 one clause up front is enough. If you can run tests or type-checking, do - don't just eyeball what
 you could verify. Never mention the review process, agents, or tooling in the report.
+
+Be thorough, smart and sharp, and work fast - one focused pass, not a review of your own review.
+Low token spend, no corners cut.

@@ -21,6 +21,7 @@ Steps:
    obvious from a README, ask me for one or two sentences before finishing "Project".
 5. Write conventions only if they're inferable with real confidence (an existing lint config,
    consistent patterns you can point to) - don't invent conventions that aren't actually followed.
-6. Leave the "Workflow" section as-is; it's this pipeline's fixed process, not project-specific.
+6. Leave the "Workflow" and "Working discipline" sections as-is; they're this pipeline's fixed
+   process, not project-specific.
 
 Report a short summary of what you filled in and anything you weren't confident enough to guess.

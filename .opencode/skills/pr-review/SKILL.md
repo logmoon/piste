@@ -24,6 +24,8 @@ compatibility: opencode
 
 ## Depth
 
+Be thorough, smart and sharp - depth is earned per section, not a mode switch.
+
 Calibrate depth to the diff itself, not to a flag. Default to a middle ground: work the checklist
 directly, don't narrate exploration, don't hedge - most diffs don't need exhaustive treatment.
 Go deeper automatically, without being asked, when any of these are true for a given part of the

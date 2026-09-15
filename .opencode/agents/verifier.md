@@ -29,4 +29,4 @@ Reply with exactly one of:
   code, edge case that's actually handled elsewhere, etc).
 - **Uncertain** - genuinely can't settle it either way with what you have access to, and why.
 
-Keep it short. You're a check, not a second full review.
+Be thorough, smart and sharp, then keep it short - you're a check, not a second full review.
