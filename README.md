@@ -35,7 +35,7 @@ back on the plan if needed. When it's right, switch to Build and tell it to go.
 /review-pr [PR number or URL]
 ```
 
-Runs the checklist (Blocker/Major/Minor/Nit + a "what's good" note). It automatically goes deeper
+Runs the checklist (Blocker/Major/Minor/Nit). It automatically goes deeper
 on the parts of the diff that are risky (auth, payments, migrations) or where it isn't confident,
 while staying fast on the rest. Any Blocker automatically gets checked by a second, context-free
 agent before you see it, so a false positive doesn't reach you labeled as fact.

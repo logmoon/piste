@@ -19,8 +19,8 @@ compatibility: opencode
    - **Major** - real problem, not necessarily merge-blocking, shouldn't be ignored.
    - **Minor** - worth fixing, low stakes.
    - **Nit** - optional, style-level. Label it as such.
-7. Always include a short **what's good** note - it's signal about what doesn't need re-litigating,
-   not politeness.
+7. No praise section. If something in the diff is genuinely good, one clause in the opening
+   framing at most - findings are the substance.
 
 ## Depth
 
@@ -44,6 +44,7 @@ pass is the whole review; don't manufacture extra effort to seem thorough.
 ## Don't
 
 - Don't manufacture findings to seem thorough - a clean diff gets a clean report.
+- Don't mention the review itself, the reviewer, or any tooling - the review is about the code.
 - Don't turn nits into Major to pad the review.
 - When reviewing agent-written code specifically, check whether a failing test was made to pass by
   weakening the assertion instead of fixing the implementation - a known failure mode worth

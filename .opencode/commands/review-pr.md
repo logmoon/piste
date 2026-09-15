@@ -19,5 +19,5 @@ Steps:
 3. Present the final report with each Blocker tagged **confirmed**, **not confirmed**, or
    **uncertain** based on the verifier's answer. Drop findings the verifier disproved, but say so
    explicitly rather than silently removing them ("Blocker dropped after verification: ...").
-4. Show findings with full file:line detail and the "what's good" note - don't summarize away
-   specifics.
+4. Show findings with full file:line detail - don't summarize away specifics. Keep the report to
+   the verdict line and findings: no praise section, no narration about the review process.
