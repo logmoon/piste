@@ -19,10 +19,8 @@ no "this review," no tool names. It reads like a person wrote it about the code.
 - Open with a short, human read on the work - "Good work on the PR", "Clean fix", "Great change,
   tested it and it works" - then go straight into findings; if there's only one, lead with it. The
   disposition comes at the end, not up front. A one-liner is a complete review for a clean PR.
-- Order findings by what matters - must-fix first, then suggestions, then nits - under plain
-  labels ("Must fix", "Should fix", "Low-priority", "Nits"), not a rigid Blocker/Major/Minor/Nit
-  taxonomy. Number each finding; name the file/line, say why it matters, and give a concrete fix
-  or suggestion where one exists.
+- Group findings by severity - Blocker, Major, Minor, Nit - and number them within each group.
+  Name the file/line, say why it matters, and give a concrete fix or suggestion where one exists.
 - First person is normal - "I feel like...", "I'd suggest...", "worth considering". Specific
   opinions, no hedging filler. Genuine positives can be a clause in the opener or a short "what
   works fine" list; never manufactured praise.
@@ -34,9 +32,10 @@ no "this review," no tool names. It reads like a person wrote it about the code.
   was run, say that instead of implying otherwise.
 - Close with the disposition: approved, approved once X is fixed, or needs another pass.
 
-Register to aim for: "**3. Membership is read before the transaction** - `file.ts:120`. Two
-simultaneous leaves both promote. Fix: re-read members inside the transaction." Not: "There
-appears to be a potential concurrency concern that may warrant attention."
+Register to aim for - under a "Blockers" heading: "**1. Membership is read before the
+transaction** - `file.ts:120`. Two simultaneous leaves both promote. Fix: re-read members inside
+the transaction." Not: "There appears to be a potential concurrency concern that may warrant
+attention."
 
 ## PR descriptions
 

@@ -14,9 +14,11 @@ compatibility: opencode
    resolved in another.
 4. Apply `references/checklist.md`. Skip sections that plainly don't apply rather than padding.
 5. Verify, don't just eyeball, wherever you have permission to run tests/type-checking.
-6. Order findings by severity, each with file:line and a short concrete explanation - Blocker
-   (breaks something), Major, Minor, Nit - but use them as thinking labels, not mandatory
-   headings. Report under plain labels: "must fix", "should fix", "low-priority", "nit".
+6. Report findings grouped by severity, each with file:line and a short concrete explanation:
+   1. **Blocker** - breaks something, must fix before merge.
+   2. **Major** - real problem, not necessarily merge-blocking, shouldn't be ignored.
+   3. **Minor** - worth fixing, low stakes.
+   4. **Nit** - optional, style-level. Label it as such.
 7. Write in the style from `pr-writing-style`: open with a short human read on the work, then
    findings; genuine positives are fine in the opener or a short "what works fine" list, no
    manufactured praise. The disposition closes the review.
