@@ -1,6 +1,6 @@
 ---
 description: Review a diff/PR - depth scales to what each part of the diff actually needs, auto-verifies any Blocker
-agent: build
+agent: plan
 ---
 
 Review target: $ARGUMENTS

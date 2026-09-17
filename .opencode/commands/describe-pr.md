@@ -1,6 +1,6 @@
 ---
 description: Draft a PR description from the current diff, in my style
-agent: build
+agent: plan
 ---
 
 Draft a PR description for the current branch's diff against its base branch. Extra context, if

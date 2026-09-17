@@ -1,6 +1,6 @@
 ---
 description: Fold a finished /review-pr report into a final markdown review, in my voice, and post it once I approve
-agent: build
+agent: plan
 ---
 
 PR to post this to: $ARGUMENTS
